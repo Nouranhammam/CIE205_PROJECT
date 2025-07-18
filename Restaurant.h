@@ -18,7 +18,7 @@ private:
 
 
 	//Nouran
-    LinkedQueue<Order*> N_waitlist;
+       LinkedQueue<Chief*> readyNormalChefs;
     
 public:
 	Event* getNextEvent();
